@@ -1,0 +1,19 @@
+{
+  "name": "helloworldnodejs",
+  "version": "1.0.0",
+  "description": "Sample hello world program in nodejs",
+  "main": "helloworldnodejs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naekharahap/helloworldnodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naekharahap/helloworldnodejs/issues"
+  },
+  "homepage": "https://github.com/naekharahap/helloworldnodejs#readme"
+}
