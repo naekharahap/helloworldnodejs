@@ -7,10 +7,10 @@ metadata:
     {{- include "helloworldnodejs.labels" . | nindent 4 }}
 spec:
   port:
-    targetPort: {{ .Values.service.targetPort }}
+    targetPort: {{ .Values.service.portName }}
   to:
     kind: Service
-    name: {{ .Values.service.name }}
+    name: {{ include "helloworldnodejs.fullname" . }}
     weight: 100
   wildcardPolicy: None
 {{- end }}

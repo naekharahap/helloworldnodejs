@@ -37,10 +37,9 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  name: helloworldnodejs
   type: ClusterIP
-  portName: 8080-http
-  port: 8080
+  portName: 7090-http
+  port: 7090
   targetPort: 7090  
 
 ingress:
